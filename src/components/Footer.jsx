@@ -53,7 +53,7 @@ function Footer() {
 
         <div>
 
-          <h3 className="font-semibold text-xl mb-5">
+          <h3 id="contacto" className="font-semibold text-xl mb-5">
             Atención
           </h3>
 

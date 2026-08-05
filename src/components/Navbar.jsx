@@ -19,25 +19,25 @@ function Navbar() {
         <ul className="hidden md:flex gap-10 font-medium text-gray-700">
 
           <li>
-            <a href="#" className="hover:text-orange-500 transition">
+            <a href="#inicio" className="hover:text-orange-500 transition">
               Inicio
             </a>
           </li>
 
           <li>
-            <a href="#" className="hover:text-orange-500 transition">
+            <a href="#servicios" className="hover:text-orange-500 transition">
               Servicios
             </a>
           </li>
 
           <li>
-            <a href="#" className="hover:text-orange-500 transition">
+            <a href="#nosotros" className="hover:text-orange-500 transition">
               Nosotros
             </a>
           </li>
 
           <li>
-            <a href="#" className="hover:text-orange-500 transition">
+            <a href="#contacto" className="hover:text-orange-500 transition">
               Contacto
             </a>
           </li>

@@ -32,7 +32,7 @@ function WhyUs() {
 
   return (
 
-    <section className="bg-slate-100 py-24">
+    <section id="nosotros" className="bg-slate-100 py-24">
 
       <div className="max-w-7xl mx-auto px-8">
 

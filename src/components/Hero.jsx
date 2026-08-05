@@ -1,55 +1,97 @@
+import { CheckCircle } from "lucide-react";
+
 function Hero() {
   return (
-    <section className="bg-slate-100">
+    
+    <section
+  id="inicio"
+  className="bg-slate-100 min-h-[85vh] flex items-center"
+>
+  <div className="max-w-7xl mx-auto px-8 py-16 grid lg:grid-cols-2 gap-16 items-center">
 
-      <div className="max-w-7xl mx-auto px-8 min-h-[85vh] grid md:grid-cols-2 gap-16 items-center">
+    {/* Texto */}
 
-        <div>
+    <div>
 
-          <span className="text-orange-500 font-semibold uppercase tracking-wider">
-            Atención rápida y garantizada
-          </span>
+      <span className="text-orange-500 font-semibold uppercase tracking-widest">
+        Atención rápida
+      </span>
 
-          <h1 className="text-5xl lg:text-6xl font-bold text-blue-900 mt-5 leading-tight">
+      <h1 className="text-5xl lg:text-6xl font-bold text-blue-900 leading-tight mt-4">
 
-            Soluciones confiables para tu hogar y negocio
+        Soluciones confiables para tu hogar y negocio
 
-          </h1>
+      </h1>
 
-          <p className="mt-8 text-lg text-gray-600 leading-8">
+      <p className="mt-6 text-xl text-gray-600 leading-8">
 
-            Brindamos servicios profesionales de
-            electricidad, gasfitería, pintura y cerrajería,
-            con atención rápida, materiales de calidad y
-            personal comprometido.
+        Servicios de electricidad, gasfitería, pintura y cerrajería
+        realizados con responsabilidad y compromiso.
 
-          </p>
+      </p>
 
-          <button className="mt-10 bg-orange-500 hover:bg-orange-600 transition text-white px-8 py-4 rounded-lg font-semibold shadow-lg">
+      <div className="mt-10 space-y-4">
 
-            Solicitar cotización
+        <div className="flex items-center gap-3">
 
-          </button>
+          <CheckCircle className="text-green-600" />
+
+          <span>Electricidad</span>
 
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex items-center gap-3">
 
-          <div className="w-full h-[500px] rounded-2xl bg-white shadow-xl flex items-center justify-center">
+          <CheckCircle className="text-green-600" />
 
-            <span className="text-gray-400 text-lg">
+          <span>Gasfitería</span>
 
-              Imagen Principal
+        </div>
 
-            </span>
+        <div className="flex items-center gap-3">
 
-          </div>
+          <CheckCircle className="text-green-600" />
+
+          <span>Pintura</span>
+
+        </div>
+
+        <div className="flex items-center gap-3">
+
+          <CheckCircle className="text-green-600" />
+
+          <span>Cerrajería</span>
 
         </div>
 
       </div>
 
-    </section>
+      <a
+        href="#contacto"
+        className="inline-block mt-12 bg-orange-500 hover:bg-orange-600 transition text-white px-8 py-4 rounded-xl font-semibold shadow-lg"
+      >
+
+        Solicitar cotización
+
+      </a>
+
+    </div>
+
+    {/* Imagen */}
+
+    <div className="flex justify-center">
+
+      <div className="w-full max-w-lg h-[500px] rounded-3xl bg-white shadow-xl flex items-center justify-center text-gray-400 text-xl">
+
+        Imagen principal
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+    
   )
 }
 
