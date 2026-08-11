@@ -1,3 +1,5 @@
+import logo from "../assets/logo.png";
+
 function Navbar() {
   return (
     <nav className="bg-white shadow-sm sticky top-0 z-50">
@@ -6,14 +8,11 @@ function Navbar() {
 
         <div>
 
-          <h1 className="text-3xl font-bold text-blue-900">
-            AR96
-          </h1>
-
-          <p className="text-xs tracking-widest text-gray-500 uppercase">
-            Soluciones Generales
-          </p>
-
+         <img
+          src={logo}
+          alt="AR96 Soluciones Generales"
+          className="h-12 w-auto"
+          />
         </div>
 
         <ul className="hidden md:flex gap-10 font-medium text-gray-700">

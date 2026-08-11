@@ -1,4 +1,5 @@
 import { CheckCircle } from "lucide-react";
+import heroImage from "../assets/hero.png";
 
 function Hero() {
   return (
@@ -81,11 +82,11 @@ function Hero() {
 
     <div className="flex justify-center">
 
-      <div className="w-full max-w-lg h-[500px] rounded-3xl bg-white shadow-xl flex items-center justify-center text-gray-400 text-xl">
-
-        Imagen principal
-
-      </div>
+      <img
+          src={heroImage}
+          alt="Servicios de AR96 Soluciones Generales"
+         className="w-full max-w-lg h-[500px] object-cover rounded-3xl shadow-xl"
+      />
 
     </div>
 
