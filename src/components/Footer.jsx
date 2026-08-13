@@ -39,7 +39,7 @@ function Footer() {
 
             <div className="flex items-center gap-3">
               <Phone size={20} />
-              <span>+51 999 999 999</span>
+              <span>+51 924 220 169</span>
             </div>
 
             <div className="flex items-center gap-3">
@@ -61,7 +61,7 @@ function Footer() {
 
             <div className="flex items-center gap-3">
               <Clock3 size={20} />
-              <span>Lun - Sáb: 8:00 am - 6:00 pm</span>
+              <span>Disponible 24/7 previa coordinación.</span>
             </div>
 
           </div>
