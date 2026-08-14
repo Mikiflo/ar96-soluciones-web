@@ -12,7 +12,7 @@ function Services() {
       icon: <Zap size={42} />,
       title: "Electricidad",
       description:
-        "Instalaciones eléctricas, tomacorrientes, luminarias, tableros y mantenimiento."
+        "Instalaciones, luminarias, tableros, cableado de bombas de agua, pozos a tierra, mantenimiento y revisión de fugas con megómetro."
     },
     {
       icon: <Wrench size={42} />,
