@@ -44,7 +44,7 @@ function Footer() {
 
             <div className="flex items-center gap-3">
               <Mail size={20} />
-              <span>correo@ar96.pe</span>
+              <span>contacto@ar96soluciones.com</span>
             </div>
 
           </div>
