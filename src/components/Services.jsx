@@ -12,25 +12,25 @@ function Services() {
       icon: <Zap size={42} />,
       title: "Electricidad",
       description:
-        "Instalaciones, luminarias, tableros, cableado de bombas de agua, pozos a tierra, mantenimiento y revisión de fugas con megómetro."
+        "Instalaciones, luminarias, tableros, cableado de bombas de agua, pozos a tierra, mantenimiento y revisión de fugas con megómetro en Lima Metropolitana."
     },
     {
       icon: <Wrench size={42} />,
       title: "Gasfitería",
       description:
-        "Reparación de fugas, instalaciones sanitarias, griferías y tuberías."
+        "Reparación de fugas, instalaciones sanitarias, griferías y tuberías a domicilio en Lima."
     },
     {
       icon: <Paintbrush size={42} />,
       title: "Pintura",
       description:
-        "Pintado de interiores y exteriores con acabados profesionales."
+        "Pintado de interiores y exteriores con acabados profesionales en Lima."
     },
     {
       icon: <KeyRound size={42} />,
       title: "Cerrajería",
       description:
-        "Cambio de cerraduras, aperturas y mantenimiento de puertas."
+        "Cambio de cerraduras, aperturas y mantenimiento de puertas en Lima Metropolitana."
     }
   ];
 

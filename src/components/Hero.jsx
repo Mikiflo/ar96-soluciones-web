@@ -20,14 +20,14 @@ function Hero() {
 
       <h1 className="text-5xl lg:text-6xl font-bold text-blue-900 leading-tight mt-4">
 
-        Soluciones confiables para tu hogar y negocio
+        Electricidad, gasfitería, pintura y cerrajería en Lima
 
       </h1>
 
       <p className="mt-6 text-xl text-gray-600 leading-8">
 
-        Servicios de electricidad, gasfitería, pintura y cerrajería
-        realizados con responsabilidad y compromiso.
+        Servicios para hogares y negocios en Lima Metropolitana.
+        Atención a domicilio con responsabilidad, rapidez y compromiso.
 
       </p>
 

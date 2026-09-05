@@ -6,23 +6,23 @@ function Projects() {
   const projects = [
       {
     image: trabajo1,
-    title: "Instalación eléctrica",
-    description: "Instalación de luminarias en oficina.",
+    title: "Mantenimiento de tablero eléctrico",
+    description: "Revisión y mantenimiento de tablero eléctrico para una instalación segura y confiable.",
   },
   {
     image: trabajo2,
     title: "Mantenimiento eléctrico",
-    description: "Trabajos de mantenimiento en ambiente comercial.",
+    description: "Mantenimiento de instalaciones eléctricas en espacios comerciales y hogares.",
   },
   {
     image: trabajo3,
     title: "Instalación de iluminación",
-    description: "Montaje y conexión de luminarias.",
+    description: "Instalación y conexión de luminarias para una iluminación eficiente y segura.",
   },
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section className="pt-24 pb-8 bg-white">
 
       <div className="max-w-7xl mx-auto px-8">
 
